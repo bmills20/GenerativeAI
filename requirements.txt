@@ -1,7 +1,7 @@
 datasets==2.13.1
 Flask==2.3.2
 flask_cors==4.0.0
-haiku==0.01
+git+https://github.com/deepmind/dm-haiku
 huggingface_hub==0.15.1
 jax==0.4.13
 numpy==1.24.3
