@@ -1,4 +1,4 @@
-# Ayo, welcome to my generative AI sandbox turned project.
+# Ayo, welcome to my generative AI sandbox.
 
 This project is designed to provide a container for my generative AI sandbox.
 
