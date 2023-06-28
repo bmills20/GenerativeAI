@@ -1,5 +1,3 @@
-GitHub Copilot: Certainly! Here is an example of how you could generate formatted documentation for your repo using the files in the folder:
-
 # Ayo, welcome to my generative AI sandbox turned project.
 
 This project is designed to provide a container for my generative AI sandbox.
