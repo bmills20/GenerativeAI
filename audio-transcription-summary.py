@@ -1,6 +1,8 @@
 # Import necessary libraries
 from datasets import load_dataset, Audio
 from transformers import AutoFeatureExtractor, AutoModelForAudioClassification
+from huggingface_hub import notebook_login
+
 
 # Load a pretrained Wav2Vec2 model for audio classification
 model = AutoModelForAudioClassification.from_pretrained("facebook/wav2vec2-base")
@@ -42,6 +44,9 @@ def main():
     
     # Apply the preprocessing function to the dataset to extract features from the audio data
     dataset = dataset.map(preprocess_function, batched=True)
+
+    # Upload model to the HuggingFace Hub (optional)
+    notebook_login()
     
     # Return the dataset and feature extractor
     return dataset, feature_extractor
