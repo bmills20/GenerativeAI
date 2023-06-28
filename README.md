@@ -1,34 +1,65 @@
-# Mintlify Starter Kit
+GitHub Copilot: Certainly! Here is an example of how you could generate formatted documentation for your repo using the files in the folder:
 
-Click on `Use this template` to copy the Mintlify starter kit. The starter kit contains examples including
+# Ayo, welcome to my generative AI sandbox turned project.
 
-- Guide pages
-- Navigation
-- Customizations
-- API Reference pages
-- Use of popular components
+This project is designed to provide a container for my generative AI sandbox.
+The first project I'll be working on is set of tools for free audio transcription and summarization (to be used alongside Microsoft Teams, Zoom, Discord, and maybe others).
+Other generative AI subprojects will appear in this repo someday.
 
-### 👩‍💻 Development
+## Installation
 
-Install the [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview the documentation changes locally. To install, use the following command
+To install the project, simply clone the repository and install the required dependencies using pip:
 
 ```
-npm i -g mintlify
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
+pip install -r requirements.txt
 ```
 
-Run the following command at the root of your documentation (where mint.json is)
+## Usage
+
+The project includes several scripts for audio transcription and summarization. Here is an overview of each script and its usage:
+
+### audio-transcription-summary.py
+
+This script is designed to extract features from audio data in the MInDS-14 dataset using a pretrained Wav2Vec2 model and feature extractor. The extracted features can then be used as input to other machine learning models for tasks such as speech recognition or speaker identification.
+
+To use the script, simply run the following command:
 
 ```
-mintlify dev
+python audio-transcription-summary.py
 ```
 
-### 😎 Publishing Changes
+### audio-summarization.py
 
-Changes will be deployed to production automatically after pushing to the default branch.
+This script is designed to summarize audio data using a combination of feature extraction and text summarization techniques. The script uses the same pretrained Wav2Vec2 model and feature extractor as the `audio-transcription-summary.py` script to extract features from the audio data, and then applies a text summarization algorithm to generate a summary of the audio content.
 
-You can also preview changes using PRs, which generates a preview link of the docs.
+To use the script, simply run the following command:
 
-#### Troubleshooting
+```
+python audio-summarization.py --input-file <path-to-audio-file> --output-file <path-to-output-file>
+```
 
-- Mintlify dev isn't running - Run `mintlify install` it'll re-install dependencies.
-- Page loads as a 404 - Make sure you are running in a folder with `mint.json`
+### audio-transcription.py
+
+This script is designed to transcribe audio data using a combination of feature extraction and automatic speech recognition (ASR) techniques. The script uses the same pretrained Wav2Vec2 model and feature extractor as the `audio-transcription-summary.py` script to extract features from the audio data, and then applies an ASR algorithm to generate a transcription of the audio content.
+
+To use the script, simply run the following command:
+
+```
+python audio-transcription.py --input-file <path-to-audio-file> --output-file <path-to-output-file>
+```
+
+## Contributing
+
+If you would like to contribute to the project, please follow these steps:
+
+1. Fork the repository
+2. Create a new branch for your feature or bug fix
+3. Make your changes and commit them to your branch
+4. Push your changes to your forked repository
+5. Create a pull request to merge your changes into the main repository
+
+## License
+
+This project is licensed under the MIT License - see the `LICENSE` file for details.
