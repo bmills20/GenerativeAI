@@ -1,10 +1,31 @@
-# Ayo, welcome to my generative AI sandbox.
+ # Ayo, welcome to my generative AI sandbox.
+ 
+ This project is designed to provide a container for **anyone** to get started with generative AI. I have included verbose comments in files to provide in-depth explanations into concepts and syntax.
+ 
+ ## Project Descriptions:
 
-This project is designed to provide a container for **anyone** to get started with generative AI. I have included verbose comments in files to provide in-depth explanations into concepts and syntax.
+ ```
+ audio-transcription (WIP, INCOMPLETE/NONFUNCTIONAL)
+ ``` 
 
-**The first project I'll be working on is set of tools for free audio transcription and summarization** (to be used alongside Microsoft Teams, Zoom, Discord, and maybe others). Still haven't come up with a good name for the program.
+ **```audio-transcription```** is set of tools for free audio transcription and summarization (to be used alongside Microsoft Teams, Zoom, Discord, and maybe others).
 
-Other generative AI subprojects will appear in this repo someday.
+ ```
+ logo-generation (WIP, INCOMPLETE/NONFUNCTIONAL)
+ ```
+
+ **```logo-generation```** is a react application which contains a chat interface to generate **text-based** images & designs. I created this with the intention of getting diffusion models to correctly place (english) text in their images.
+
+ 
+ This project is dockerized and can be pulled from Docker Hub using the following command:
+ 
+ ```
+ docker pull braxai/generative-ai-sandbox:latest
+ ```
+ 
+ Other generative AI subprojects will appear in this repo someday.
+ 
+ ## Features in development:
 
 ## Features in development:
 
