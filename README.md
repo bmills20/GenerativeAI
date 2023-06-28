@@ -4,6 +4,14 @@ This project is designed to provide a container for my generative AI sandbox.
 The first project I'll be working on is set of tools for free audio transcription and summarization (to be used alongside Microsoft Teams, Zoom, Discord, and maybe others).
 Other generative AI subprojects will appear in this repo someday.
 
+## Features in development:
+
+1. GUI for ease-of-use
+2. Personalized training to a solo voice
+    a. "Repeat what you see on the screen into the mic"
+3. Generalized accent detection
+    a. Maybe adaptive speech recognition accounting for accent in the future
+
 ## Installation
 
 To install the project, simply clone the repository and install the required dependencies using pip:
