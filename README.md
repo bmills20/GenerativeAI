@@ -1,7 +1,9 @@
 # Ayo, welcome to my generative AI sandbox turned project.
 
 This project is designed to provide a container for my generative AI sandbox.
-The first project I'll be working on is set of tools for free audio transcription and summarization (to be used alongside Microsoft Teams, Zoom, Discord, and maybe others).
+
+The first project I'll be working on is set of tools for free audio transcription and summarization (to be used alongside Microsoft Teams, Zoom, Discord, and maybe others). Still haven't come up with a good name for the program.
+
 Other generative AI subprojects will appear in this repo someday.
 
 ## Features in development:
